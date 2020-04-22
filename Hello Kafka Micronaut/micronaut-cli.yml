@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: io.hashimati.testkafka
+---
+testFramework: junit
+sourceLanguage: java

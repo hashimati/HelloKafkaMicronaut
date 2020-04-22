@@ -1,0 +1,28 @@
+micronaut:
+  application:
+    name: helloworldkafka
+  server:
+    port: 8080
+
+
+---
+micronaut:
+  views:
+    thymeleaf:
+      enabled: true
+
+---
+micronaut:
+  router:
+    static-resources:
+      default:
+        mapping: "/**"
+      '*':
+        paths:
+        - "classpath:static"
+
+---
+
+kafka:
+  bootstrap:
+    servers: localhost:9092

@@ -1,0 +1,1 @@
+mn create-app io-hashimati-testkafka --profile service --lang java --build gradle --features kafka-streams --features kafka
